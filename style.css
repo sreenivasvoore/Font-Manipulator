@@ -1,0 +1,30 @@
+body{
+    font-family: cursive;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: canvasAnimation;
+    box-shadow: 5px 5px 5px gray;
+}
+
+@keyframes canvasAnimation{
+    from{
+        box-shadow: 1px 1px 38px cyan;
+    }
+
+    to{
+        box-shadow: 1px 1px 38px navy;
+    }
+}
